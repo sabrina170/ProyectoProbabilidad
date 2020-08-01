@@ -48,6 +48,9 @@ $data2=$resultado2->fetchAll(PDO::FETCH_ASSOC);
     
   <body> 
 <nav class="navbar navbar-warning bg-warning">
+        <a class="navbar-brand" href="index.php">
+          <img src="img/logo4.PNG" width="60" height="60" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
         <a class="navbar-brand">ADMINISTRADOR</a>
         <form class="form-inline"> 
             <a class="btn btn-dark" href="Cerrar.php" type="submit">Cerrar Sessión</a>

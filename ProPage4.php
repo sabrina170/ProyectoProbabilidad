@@ -29,6 +29,9 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 </head>
 <body>
 <nav class="navbar navbar-primary bg-primary">
+<a class="navbar-brand" href="#">
+          <img src="img/logo4.PNG" width="60" height="60" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
         <a class="navbar-brand">COLABORADOR</a>
         <form class="form-inline"> 
             <a class="btn btn-dark" href="Cerrar.php" type="submit">Cerrar Sessión</a>
